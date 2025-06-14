@@ -18,7 +18,7 @@ Welcome to my custom-built **E-Commerce Website** 🌐 — a modern, responsive,
 
 ## 🚀 Live Demo
 
-🔗 https://quiet-jelly-311886.netlify.app/(#)
+🔗 https://quiet-jelly-311886.netlify.app/
 
 ---
 
