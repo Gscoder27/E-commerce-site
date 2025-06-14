@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liceria & Co. : E-Commerce WebSite</title>
+    <link rel="icon" type="image/x-icon" href="images_videos\favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images_videos\Online shop_logo.png" alt=""></a>
+        <button id="hamburger" aria-label="Open navigation menu"><i class="fas fa-bars"></i></button>
+        <div id="cart-mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div>
+            <ul id = "navbar">
+                <button id="close-navbar" aria-label="Close navigation menu"><i class="fas fa-times"></i></button>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="shop.html"> Shop </a></li>
+                <li><a href="blog.html"> Blog </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i> </a></li>
+                <li class="login-nav"><a href="LoginS.html"><button class="login" onclick="window.location.href='sproduct.html'" type="button">Login/SignUp</button></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="login-page" >
+        <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Log in</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Confirm Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+            <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+               Comming here first time and want to place order first time then click on sign up button to create account
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img\login.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+                Already registered then simply login and enjoy! 
+            </p>
+            <button class="btn transparent" id="Log-in-btn">
+              Log in
+            </button>
+          </div>
+          <img src="img\undraw_work-in-progress_m95a.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+
+
+    </section>
+    
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
